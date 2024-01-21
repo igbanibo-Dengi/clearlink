@@ -24,7 +24,7 @@ const MobileNav = () => {
     };
 
     return (
-        <nav className={`container overflow-hidden flex xl:hidden flex-col justify-between border border-[#D0D5DD]  rounded-full bg-[#F2F4F7] py-2 ${expanded ? 'rounded-lg' : ''}  ${isScrolled ? 'shadow-xl md:transition-all duration-500' : ''}`}>
+        <nav className={`container overflow-hidden flex xl:hidden  flex-col justify-between border border-[#D0D5DD]  rounded-full bg-[#F2F4F7] py-2 ${expanded ? 'rounded-lg' : ''}  ${isScrolled ? 'shadow-xl' : ''}`}>
             <div className='flex items-center w-full justify-between'>
                 <Image
                     src='/logo.svg'

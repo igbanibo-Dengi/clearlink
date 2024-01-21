@@ -1,9 +1,13 @@
-import Image from "next/image";
+
+import HeroSection from '@/components/HeroSection'
+import React from 'react'
+
 
 export default function Home() {
+
   return (
-    <section className="container pt-28 h-screen bg-[url('/bg-image.jpg')]">
-      hello
-    </section>
-  );
+    <section className='pt-24 md:pt-60 lg:pt-72 xl:pt-0'>
+      <HeroSection />
+    </section >
+  )
 }

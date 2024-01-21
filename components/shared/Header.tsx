@@ -9,7 +9,7 @@ const Header = () => {
 
 
     return (
-        <header className="py-5 px-5 md:px-0 z-50 w-full fixed">
+        <header className=" py-5 px-2 lg:px-0 z-50 w-full fixed">
             <MainNav />
             <MobileNav />
         </header>

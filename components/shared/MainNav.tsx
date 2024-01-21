@@ -23,7 +23,7 @@ const MainNav = () => {
     }, []);
 
     return (
-        <nav className={`container hidden md:flex justify-between border border-[#D0D5DD] transition-all duration-500 rounded-full bg-[#F2F4F7] py-3 ${isScrolled ? 'shadow-xl' : ''} `}>
+        <nav className={`container hidden xl:flex justify-between border border-[#D0D5DD] transition-all duration-500 rounded-full bg-[#F2F4F7] py-3 ${isScrolled ? 'shadow-xl' : ''} `}>
             <div className='pr-10 flex items-center'>
                 <Image
                     src='/logo.svg'

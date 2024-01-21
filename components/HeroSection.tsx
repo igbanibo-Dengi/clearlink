@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="container md:h-screen lg md:max-h-[800px] flex justify-center md:items-end bg-[url('/bg-image.jpg')]">
             <div className="flex flex-col-reverse xl:flex-row gap-8 pb-16">
                 <div className='flex flex-col justify-between gap-6 border'>
-                    <h1 className="text-2xl sm:text-6xl font-semibold leading-tight">Uniting the world, one video call at a time</h1>
+                    <h1 className="text-2xl sm:text-6xl font-semibold leading-tight whitespace-nowrap">Uniting the world, <br /> one video call at a time</h1>
                     <p className="hidden md:block text-sm md:text-xl text-muted-foreground">
                         Experience the future of communication with ClearLink – <br /> where crystal-clear video conferencing meets <br />
                         unparalleled simplicity.
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 </div>
                 <Card className="w-full bg-[#EFF8FF] border border-[#B2DDFF]">
                     <CardContent className="flex flex-col items-center p-8 w-full">
-                        <div className="grid grid-cols-3 justify-center w-fit mb-8 gap-2  md:gap-8 lg:gap-10">
+                        <div className="grid grid-cols-3 justify-center w-fit">
                             <Image
                                 alt="User 1"
                                 className="rounded-lg"

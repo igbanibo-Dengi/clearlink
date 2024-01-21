@@ -1,6 +1,8 @@
 
 import Details from '@/components/Details'
 import HeroSection from '@/components/HeroSection'
+import Shopify from '@/components/Shopify'
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -17,42 +19,42 @@ export default function Home() {
             Join 1,500+ companies already video conferencing the ClearLink way
           </p>
           <div className="grid grid-cols-2 w-full gap-x-6 gap-y-8 sm:grid-cols-3 xl:grid-cols-6 xl:gap-x-0 xl:gap-y-0 xl:flex xl:justify-between ">
-            <img
+            <Image
               alt="Shopify logo"
               className="h-6 sm:h-8"
               height="53"
               src="/icons/Shopify.svg"
               width="141"
             />
-            <img
+            <Image
               alt="Coinbase logo"
               className="h-6 sm:h-8"
               height="32"
               src="/icons/coinbase.svg"
               width="177"
             />
-            <img
+            <Image
               alt="Dropbox logo"
               className="h-6 sm:h-8"
               height="36"
               src="/icons/Dropbox.png"
               width="184"
             />
-            <img
+            <Image
               alt="Intercom logo"
               className="h-6 sm:h-8"
               height="40"
               src="/icons/Intercom.svg"
               width="174"
             />
-            <img
+            <Image
               alt="Marvel logo"
               className="h-6 sm:h-8"
               height="40"
               src="/icons/Marvel.svg"
               width="100"
             />
-            <img
+            <Image
               alt="Automattic logo"
               className="h-6 sm:h-8"
               height="20"
@@ -64,8 +66,11 @@ export default function Home() {
 
       </div>
     </section>
-    <section className='mt-10 xl:mt-32'>
+    <section className='my-10 xl:mt-32'>
       <Details />
+    </section>
+    <section className='my-10 bg-[#F9FAFB] py-10'>
+      <Shopify />
     </section>
   </>
   )

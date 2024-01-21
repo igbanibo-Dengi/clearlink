@@ -1,0 +1,68 @@
+import React, { useEffect, useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { ChevronDown, Menu } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+const MobileNav = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [expanded, setExpanded] = useState(false);
+
+    const listenScrollEvent = () => {
+        setIsScrolled(window.scrollY > 15);
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", listenScrollEvent);
+        return () => {
+            window.removeEventListener("scroll", listenScrollEvent);
+        };
+    }, []);
+
+    const handleButtonClick = () => {
+        setExpanded(!expanded);
+    };
+
+    return (
+        <nav className={`container overflow-hidden flex md:hidden flex-col justify-between border border-[#D0D5DD]  rounded-full bg-[#F2F4F7] py-4 ${expanded ? 'rounded-lg' : ''}  ${isScrolled ? 'shadow-xl transition-all duration-500' : ''}`}>
+            <div className='pr-10 flex items-center w-full justify-between'>
+                <Image
+                    src='/logo.svg'
+                    alt='logo'
+                    width={150}
+                    height={30}
+                />
+
+                <button onClick={handleButtonClick} className='border-none bg-transparent text-muted-foreground'><Menu size={30} /></button>
+            </div>
+
+
+            <div className={`items-center py-5 gap-4 text-muted-foreground font-semibold ${expanded ? 'flex flex-col' : 'hidden'}`} >
+                <Link href='/' className='flex gap-3'>
+                    <p>Products</p>
+                    <ChevronDown />
+                </Link>
+                <Link href='/' className='flex gap-3'>
+                    <p>Solutions</p>
+                    <ChevronDown />
+                </Link>
+                <Link href='/' className='flex gap-3'>
+                    <p>Resources</p>
+                    <ChevronDown />
+                </Link>
+                <Link href='/' className='flex gap-3'>
+                    <p>Pricing</p>
+                    <ChevronDown />
+                </Link>
+                <Button asChild size={'lg'} variant={'outline'}>
+                    <Link href='/'>Talk to sales</Link>
+                </Button>
+                <Button asChild size={'lg'}>
+                    <Link href='/'>Sign up for free</Link>
+                </Button>
+            </div>
+        </nav>
+    );
+};
+
+export default MobileNav;

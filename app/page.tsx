@@ -5,9 +5,67 @@ import React from 'react'
 
 export default function Home() {
 
-  return (
+  return (<>
     <section className='pt-24 md:pt-60 lg:pt-72 xl:pt-0'>
       <HeroSection />
     </section >
+    <section>
+      <div className="py-8">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="mb-6 text-center text-sm text-gray-500">
+            Join 1,500+ companies already video conferencing the ClearLink way
+          </p>
+          <div className="grid grid-cols-2 w-full gap-x-6 gap-y-8 sm:grid-cols-3 xl:grid-cols-6 xl:gap-x-0 xl:gap-y-0 xl:flex xl:justify-between ">
+            <img
+              alt="Shopify logo"
+              className="h-6 sm:h-8"
+              height="53"
+              src="/icons/Shopify.svg"
+              width="141"
+            />
+            <img
+              alt="Coinbase logo"
+              className="h-6 sm:h-8"
+              height="32"
+              src="/icons/coinbase.svg"
+              width="177"
+            />
+            <img
+              alt="Dropbox logo"
+              className="h-6 sm:h-8"
+              height="36"
+              src="/icons/Dropbox.png"
+              width="184"
+            />
+            <img
+              alt="Intercom logo"
+              className="h-6 sm:h-8"
+              height="40"
+              src="/icons/Intercom.svg"
+              width="174"
+            />
+            <img
+              alt="Marvel logo"
+              className="h-6 sm:h-8"
+              height="40"
+              src="/icons/Marvel.svg"
+              width="100"
+            />
+            <img
+              alt="Automattic logo"
+              className="h-6 sm:h-8"
+              height="20"
+              src="/icons/Automattic.svg"
+              width="240"
+            />
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section>
+
+    </section>
+  </>
   )
 }

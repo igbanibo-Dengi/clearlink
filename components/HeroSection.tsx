@@ -20,7 +20,15 @@ const HeroSection = () => {
                     </p>
                     <div className="flex space-x-4">
                         <Button className="bg-blue-600 text-white">Start your free trial</Button>
-                        <Button className="bg-[#e0e7ff] text-blue-600">Discover AI assistant</Button>
+                        <Button className="bg-[#e0e7ff] text-blue-600 flex gap-2">
+                            <Image
+                                src='/icons/robot.svg'
+                                alt='robot'
+                                width={20}
+                                height={16}
+                            />
+                            <p> Discover AI assistant</p>
+                        </Button>
                     </div>
                     <div className="flex items-center space-x-[8px]">
                         <Image

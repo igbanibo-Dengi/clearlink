@@ -1,24 +1,24 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { CardContent, Card } from "@/components/ui/card"
-import { CameraIcon, GaugeIcon, MicIcon, PhoneIcon, StarIcon } from "lucide-react";
+import { StarIcon } from "lucide-react";
 import Image from 'next/image';
 
 const HeroSection = () => {
     return (
         <div className="container md:h-screen lg md:max-h-[800px] flex justify-center md:items-end bg-[url('/bg-image.jpg')]">
-            <div className="flex flex-col-reverse xl:flex-row gap-8 items-end pb-16">
-                <div>
-                    <h1 className="text-2xl sm:text-6xl font-semibold leading-tight mb-6">Uniting the world, one video call at a time</h1>
-                    <p className="hidden md:block text-sm md:text-xl mb-6 text-muted-foreground">
+            <div className="flex flex-col-reverse xl:flex-row gap-8 pb-16">
+                <div className='flex flex-col justify-between gap-6 border'>
+                    <h1 className="text-2xl sm:text-6xl font-semibold leading-tight">Uniting the world, one video call at a time</h1>
+                    <p className="hidden md:block text-sm md:text-xl text-muted-foreground">
                         Experience the future of communication with ClearLink – <br /> where crystal-clear video conferencing meets <br />
                         unparalleled simplicity.
                     </p>
-                    <p className="md:hidden text-sm md:text-xl mb-6 text-muted-foreground">
+                    <p className="md:hidden text-sm md:text-xl text-muted-foreground">
                         Experience the future of communication with ClearLink – where crystal-clear video conferencing meets
                         unparalleled simplicity.
                     </p>
-                    <div className="flex space-x-4 mb-6">
+                    <div className="flex space-x-4">
                         <Button className="bg-blue-600 text-white">Start your free trial</Button>
                         <Button className="bg-[#e0e7ff] text-blue-600">Discover AI assistant</Button>
                     </div>

@@ -1,4 +1,5 @@
 
+import Details from '@/components/Details'
 import HeroSection from '@/components/HeroSection'
 import React from 'react'
 
@@ -9,10 +10,10 @@ export default function Home() {
     <section className='pt-24 md:pt-60 lg:pt-72 xl:pt-0'>
       <HeroSection />
     </section >
-    <section>
+    <section className=' my-0 xl:my-20'>
       <div className="py-8">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="mb-6 text-center text-sm text-gray-500">
+          <p className="mb-6 text-center text-sm text-muted-foreground">
             Join 1,500+ companies already video conferencing the ClearLink way
           </p>
           <div className="grid grid-cols-2 w-full gap-x-6 gap-y-8 sm:grid-cols-3 xl:grid-cols-6 xl:gap-x-0 xl:gap-y-0 xl:flex xl:justify-between ">
@@ -63,8 +64,8 @@ export default function Home() {
 
       </div>
     </section>
-    <section>
-
+    <section className='mt-10 xl:mt-32'>
+      <Details />
     </section>
   </>
   )

@@ -103,7 +103,7 @@ const HeroSection = () => {
                                 alt="User 4"
                                 className="rounded-lg"
                                 height="160"
-                                src="/animoji4.jpg"
+                                src="/animoji5.jpg"
                                 style={{
                                     aspectRatio: "100/100",
                                     objectFit: "cover",
@@ -114,7 +114,7 @@ const HeroSection = () => {
                                 alt="User 4"
                                 className="rounded-lg"
                                 height="160"
-                                src="/animoji5.jpg"
+                                src="/animoji6.jpg"
                                 style={{
                                     aspectRatio: "100/100",
                                     objectFit: "cover",

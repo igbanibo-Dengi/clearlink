@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from 'next/link'
+import Sarah from '@/public/sarah.jpg'
 
 
 const Shopify = () => {
@@ -31,7 +32,7 @@ const Shopify = () => {
                 <div className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8 mb-6'>
                     <div className='flex items-center gap-4'>
                         <Avatar>
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src='/sarah.jpg' />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
                         <span className='flex flex-col'>

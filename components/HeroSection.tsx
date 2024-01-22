@@ -7,8 +7,8 @@ import Image from 'next/image';
 const HeroSection = () => {
     return (
         <div className="container md:h-screen lg md:max-h-[800px] flex justify-center md:items-end bg-[url('/bg-image.jpg')]">
-            <div className="flex flex-col-reverse xl:flex-row gap-8 pb-5">
-                <div className='flex flex-col gap-6 justify-between border pt-6'>
+            <div className="flex flex-col-reverse xl:flex-row gap-8 pb-5 w-full">
+                <div className='flex flex-col gap-6 justify-between pt-6'>
                     <h1 className="text-2xl sm:text-6xl font-semibold leading-tight whitespace-nowrap">Uniting the world, <br /> one video call at a time</h1>
                     <p className="hidden md:block text-sm md:text-xl text-muted-foreground">
                         Experience the future of communication with ClearLink – <br /> where crystal-clear video conferencing meets <br />
@@ -18,7 +18,7 @@ const HeroSection = () => {
                         Experience the future of communication with ClearLink – where crystal-clear video conferencing meets
                         unparalleled simplicity.
                     </p>
-                    <div className="flex space-x-4">
+                    <div className="flex flex-col gap-4 md:flex-row">
                         <Button className="bg-blue-600 text-white">Start your free trial</Button>
                         <Button className="bg-[#e0e7ff] text-blue-600 flex gap-2">
                             <Image
@@ -39,7 +39,7 @@ const HeroSection = () => {
                             width="152"
                         />
                         <div className="flex flex-col items-center">
-                            <span className='flex'>
+                            <span className='flex items-center'>
 
                                 <StarIcon size={20} fill='#FDB022' className="text-[#FDB022]" />
                                 <StarIcon size={20} fill='#FDB022' className="text-[#FDB022]" />
@@ -48,11 +48,11 @@ const HeroSection = () => {
                                 <StarIcon size={20} fill='#FDB022' className="text-[#FDB022]" />
                                 <span className="text-lg font-semibold ml-2">5.0</span>
                             </span>
-                            <span className="text-muted-foreground ml-1">from 3,000+ reviews</span>
+                            <span className="text-xs md:text-base text-muted-foreground ml-1">from 3,000+ reviews</span>
                         </div>
                     </div>
                 </div>
-                <Card className="w-full bg-[#EFF8FF] border border-[#B2DDFF]">
+                <Card className="sm:ml-0 ml-auto bg-[#EFF8FF] border border-[#B2DDFF]">
                     <CardContent className="flex flex-col items-center p-4 md:p-8 w-full">
                         <div className="grid grid-cols-3 justify-center gap-3 lg:gap-5 w-fit">
                             <Image

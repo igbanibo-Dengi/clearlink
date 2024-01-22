@@ -10,11 +10,11 @@ const Details = () => {
             <div className='relative'>
                 <h2 className=" text-base md:text-lg font-bold text-primary">The ClearLink Advantage</h2>
                 <h1 className="mt-4 text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">Why choose ClearLink?</h1>
-                <p className="mt-4 text-lg md:text-2xl text-muted-foreground md:hidden">
+                <p className="mt-4 text-lg md:text-2xl text-muted-foreground lg:hidden">
                     In a world where connection is everything, ClearLink takes the lead. Our cutting-edge video conferencing app
                     offers:
                 </p>
-                <p className="mt-4 text-lg md:text-2xl text-muted-foreground hidden md:block">
+                <p className="mt-4 text-lg md:text-2xl text-muted-foreground hidden lg:block">
                     In a world where connection is everything, ClearLink takes the lead. Our <br /> cutting-edge video conferencing app
                     offers:
                 </p>

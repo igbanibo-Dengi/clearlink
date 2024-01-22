@@ -54,7 +54,7 @@ const MobileNav = () => {
                     <p>Pricing</p>
                     <ChevronDown />
                 </Link>
-                <Button asChild size={'lg'} variant={'outline'}>
+                <Button asChild size={'lg'} variant={'outline'} className='bg-white border  border-[#98A2B3] text-foreground' >
                     <Link href='/'>Talk to sales</Link>
                 </Button>
                 <Button asChild size={'lg'}>

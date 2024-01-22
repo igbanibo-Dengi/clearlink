@@ -2,6 +2,7 @@
 import Details from '@/components/Details'
 import Faqs from '@/components/Faqs'
 import HeroSection from '@/components/HeroSection'
+import Mockup from '@/components/Mockup'
 import Shopify from '@/components/Shopify'
 import Image from 'next/image'
 import React from 'react'
@@ -13,7 +14,7 @@ export default function Home() {
     <section className='pt-24 md:pt-60 lg:pt-72 xl:pt-0'>
       <HeroSection />
     </section >
-    <section className=' my-0 xl:my-20'>
+    <section className=' my-0 mt-10 xl:my-20'>
       <div className="py-8">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="mb-6 text-center text-sm text-muted-foreground">
@@ -67,7 +68,7 @@ export default function Home() {
 
       </div>
     </section>
-    <section className='my-10 xl:mt-32'>
+    <section className='my-20 xl:mt-32'>
       <Details />
     </section>
     <section className='my-10 bg-[#F9FAFB] py-10'>
@@ -75,6 +76,9 @@ export default function Home() {
     </section>
     <section className='my-10  py-10'>
       <Faqs />
+    </section>
+    <section className='my-10  py-10'>
+      <Mockup />
     </section>
   </>
   )

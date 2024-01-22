@@ -13,7 +13,7 @@ const Faqs = () => {
                     <h2 className="text-[18px] text-primary font-semibold mb-4">Support</h2>
                     <h3 className="text-5xl font-semibold mb-6">FAQs</h3>
                     <p className="mb-6 pr-20 text-muted-foreground">
-                        Everything you need to know about the product and billing. Can't find the answer you're looking for? Please  &nbsp;
+                        Everything you need to know about the product and billing. Can&apos;t find the answer you&apos;re looking for? Please  &nbsp;
                         <a className="underline" href="#">
                             chat to our friendly team.
                         </a>

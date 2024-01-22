@@ -73,7 +73,7 @@ const Details = () => {
                         <div className="">
                             <h3 className="text-lg text-center xl:text-left font-medium leading-6 text-gray-900">Scheduling made easy</h3>
                             <p className="mt-2 text-[18px] text-muted-foreground">
-                                Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and
+                                Streamline your agenda with ClearLink&apos;s intuitive scheduling. Set up meetings, send invitations, and
                                 receive reminders in one place.
                             </p>
                         </div>

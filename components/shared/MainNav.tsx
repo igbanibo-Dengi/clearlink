@@ -51,27 +51,15 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Products</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 rounded-lg max-w-lg mx-auto">
+                                <div className="p-8 w-[500px] mx-auto">
+                                    <h3 className='font-semibold text-3xl text-center'>Products</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
+
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
                                             </p>
-                                        </div>
-                                        <div className="flex flex-col space-y-4">
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Introduction</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Re-usable components built using Radix UI and Tailwind CSS.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Installation</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">How to install dependencies and structure your app.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Typography</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Styles for headings, paragraphs, lists...etc</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -83,27 +71,15 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Solutions</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 rounded-lg max-w-lg mx-auto">
+                                <div className="p-8 w-[500px] mx-auto">
+                                    <h3 className='font-semibold text-3xl text-center'>Solutions</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
+
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
                                             </p>
-                                        </div>
-                                        <div className="flex flex-col space-y-4">
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Introduction</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Re-usable components built using Radix UI and Tailwind CSS.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Installation</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">How to install dependencies and structure your app.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Typography</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Styles for headings, paragraphs, lists...etc</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -115,27 +91,14 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 rounded-lg max-w-lg mx-auto">
+                                <div className="p-8 w-[500px] mx-auto">
+                                    <h3 className='font-semibold text-3xl text-center'>Resources</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
                                             </p>
-                                        </div>
-                                        <div className="flex flex-col space-y-4">
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Introduction</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Re-usable components built using Radix UI and Tailwind CSS.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Installation</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">How to install dependencies and structure your app.</p>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-lg">Typography</h3>
-                                                <p className="text-muted-forefround text-sm mt-1">Styles for headings, paragraphs, lists...etc</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

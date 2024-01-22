@@ -1,5 +1,6 @@
 
 import Details from '@/components/Details'
+import Faqs from '@/components/Faqs'
 import HeroSection from '@/components/HeroSection'
 import Shopify from '@/components/Shopify'
 import Image from 'next/image'
@@ -71,6 +72,9 @@ export default function Home() {
     </section>
     <section className='my-10 bg-[#F9FAFB] py-10'>
       <Shopify />
+    </section>
+    <section className='my-10  py-10'>
+      <Faqs />
     </section>
   </>
   )

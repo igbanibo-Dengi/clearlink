@@ -7,8 +7,8 @@ import Image from 'next/image';
 const HeroSection = () => {
     return (
         <div className="container md:h-screen lg md:max-h-[800px] flex justify-center md:items-end bg-[url('/bg-image.jpg')]">
-            <div className="flex flex-col-reverse xl:flex-row gap-8 pb-16">
-                <div className='flex flex-col justify-between gap-6 border'>
+            <div className="flex flex-col-reverse xl:flex-row gap-8 pb-5">
+                <div className='flex flex-col gap-6 justify-between border pt-6'>
                     <h1 className="text-2xl sm:text-6xl font-semibold leading-tight whitespace-nowrap">Uniting the world, <br /> one video call at a time</h1>
                     <p className="hidden md:block text-sm md:text-xl text-muted-foreground">
                         Experience the future of communication with ClearLink – <br /> where crystal-clear video conferencing meets <br />
@@ -53,8 +53,8 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <Card className="w-full bg-[#EFF8FF] border border-[#B2DDFF]">
-                    <CardContent className="flex flex-col items-center p-8 w-full">
-                        <div className="grid grid-cols-3 justify-center w-fit">
+                    <CardContent className="flex flex-col items-center p-4 md:p-8 w-full">
+                        <div className="grid grid-cols-3 justify-center gap-3 lg:gap-5 w-fit">
                             <Image
                                 alt="User 1"
                                 className="rounded-lg"
@@ -122,7 +122,7 @@ const HeroSection = () => {
                                 width="160"
                             />
                         </div>
-                        <div className="flex space-x-4">
+                        <div className="flex space-x-4 pt-8">
 
                             <div className='p-3 bg-white rounded-full'>
                                 <Image

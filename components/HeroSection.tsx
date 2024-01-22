@@ -52,7 +52,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <Card className="sm:ml-0 ml-auto bg-[#EFF8FF] border border-[#B2DDFF]">
+                <Card className="sm:ml-auto ml-0 bg-[#EFF8FF] border border-[#B2DDFF]">
                     <CardContent className="flex flex-col items-center p-4 md:p-8 w-full">
                         <div className="grid grid-cols-3 justify-center gap-3 lg:gap-5 w-fit">
                             <Image

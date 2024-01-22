@@ -20,7 +20,7 @@ const HeroSection = () => {
                     </p>
                     <div className="flex flex-col gap-4 md:flex-row">
                         <Button className="bg-blue-600 text-white">Start your free trial</Button>
-                        <Button className="bg-[#e0e7ff] text-blue-600 flex gap-2">
+                        <span className="items-center text-primary flex gap-2 mx-auto md:mx-0">
                             <Image
                                 src='/icons/robot.svg'
                                 alt='robot'
@@ -28,7 +28,7 @@ const HeroSection = () => {
                                 height={16}
                             />
                             <p> Discover AI assistant</p>
-                        </Button>
+                        </span>
                     </div>
                     <div className="flex items-center space-x-[8px]">
                         <Image
@@ -52,7 +52,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <Card className="sm:ml-auto ml-0 bg-[#EFF8FF] border border-[#B2DDFF]">
+                <Card className="mx-auto xl:mx-0  xl:ml-auto bg-[#EFF8FF] border border-[#B2DDFF]">
                     <CardContent className="flex flex-col items-center p-4 md:p-8 w-full">
                         <div className="grid grid-cols-3 justify-center gap-3 lg:gap-5 w-fit">
                             <Image

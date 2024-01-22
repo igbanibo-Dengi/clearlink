@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button';
-import { ChevronDown, SlashIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
     NavigationMenu,
     NavigationMenuContent,
-    NavigationMenuIndicator,
     NavigationMenuItem,
-    NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
-    NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
 
@@ -51,11 +47,11 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Products</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 w-[500px] mx-auto">
+                                <div className="p-8 w-[600px] mx-auto">
                                     <h3 className='font-semibold text-3xl text-center'>Products</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">This project was built with Next.js and shadcn/ui</h2>
 
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
@@ -71,11 +67,11 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Solutions</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 w-[500px] mx-auto">
+                                <div className="p-8 w-[600px] mx-auto">
                                     <h3 className='font-semibold text-3xl text-center'>Solutions</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">This project was built with Next.js and shadcn/ui</h2>
 
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
@@ -91,11 +87,11 @@ const MainNav = () => {
                         <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="flex items-center justify-center">
-                                <div className="p-8 w-[500px] mx-auto">
+                                <div className="p-8 w-[600px] mx-auto">
                                     <h3 className='font-semibold text-3xl text-center'>Resources</h3>
                                     <div className="flex gap-8">
                                         <div className="bg-muted p-4 rounded-lg flex flex-col items-center justify-center">
-                                            <h2 className="font-bold text-lg mt-4">Built with Next.js and shadcn/ui</h2>
+                                            <h2 className="font-bold text-lg mt-4">This project was built with Next.js and shadcn/ui</h2>
                                             <p className="text-muted-forefround text-sm mt-2">
                                                 Beautifully designed components built with Radix UI and Tailwind CSS.
                                             </p>
